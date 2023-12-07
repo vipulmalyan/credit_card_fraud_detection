@@ -4,32 +4,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import pickle
 
-# Load the dataset from the new directory path
-#file_path = "/Users/vipul/Downloads/CodeClause/Credit Card Fraud Detection/creditcard.csv"
-#cred_card_data = pd.read_csv(file_path)
 
-# Separate data for analysis
-#legit = cred_card_data[cred_card_data.Class == 0]
-#fraud = cred_card_data[cred_card_data.Class == 1]
-#legit_sample = legit.sample(n=492)
 
-# Create a balanced dataset
-#new_dataset = pd.concat([legit_sample, fraud], axis=0)
-
-# Split the data into features and targets
-#X = new_dataset.drop(columns="Class", axis=1)
-#Y = new_dataset["Class"]
-
-# Split the data into training and testing sets
-#X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=2)
-
-# Train the Logistic Regression model
-#model = LogisticRegression()
-#model.fit(X_train, Y_train)
-
-# Save the trained model using pickle
-#with open('model.pkl', 'wb') as file:
- #   pickle.dump(model, file)
+X=picle.load(open("features.pkl","rb"))
 
 # Streamlit App
 def main():
