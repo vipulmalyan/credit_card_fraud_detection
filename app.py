@@ -6,7 +6,7 @@ import pickle
 
 
 
-X=picle.load(open("features.pkl","rb"))
+X=pickle.load(open("features.pkl","rb"))
 
 # Streamlit App
 def main():
