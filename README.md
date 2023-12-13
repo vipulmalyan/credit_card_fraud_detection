@@ -18,7 +18,7 @@ Credit card fraud poses a significant challenge affecting financial institutions
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/credit-card-fraud-detection.git
+    git clone https://github.com/vipulmalyan/credit-card-fraud-detection.git
     cd credit-card-fraud-detection
     ```
 
